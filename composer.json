@@ -1,0 +1,27 @@
+{
+	"name": "greenpeace/planet4-child-theme-chile",
+	"description": "Planet 4 Child theme for Chile",
+	"type":"wordpress-theme",
+	"minimum-stability" : "stable",
+	"license": "GPL-3.0-or-later",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/greenpeace/planet4-child-theme-chile/issues",
+		"source": "https://github.com/greenpeace/planet4-child-theme-chile"
+	},
+	"extra": {
+		"installer-paths": {
+			"../../plugins/{$name}/": [
+				"wpackagist-plugin/*",
+				"type:wordpress-plugin"
+			]
+		}
+	},
+	"require": {
+	}
+}
